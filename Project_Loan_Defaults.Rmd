@@ -1,9 +1,12 @@
 ---
 title: "Project_1"
 author: "Eli (Ilya) Bolotin"
-date: "4/05/2019"
-output: word_document
+date: "04/05/2019"
+output: pdf_document
 fontsize: 11
+header-includes:
+  - \usepackage{fvextra}
+  - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
 ---
 
 ```{r setup, include=FALSE}
